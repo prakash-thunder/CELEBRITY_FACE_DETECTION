@@ -8,32 +8,62 @@ In this data science and machine learning project, we classify sports personalit
 
 4 Lionel Messi
 
-## User Interface
+## User Interface screenshot
 
 ![App Screenshot](https://github.com/prakash-thunder/CELEBRITY_FACE_DETECTION/blob/main/model_face_detection.png?raw=true)
 
-## Here is the folder structure,
-* UI : This contains ui website code 
 
-* server: Python flask server
+### Below data science concepts are used in this project
 
-* model: Contains python notebook for model building
+  - Data loading and cleaning
 
-* google_image_scrapping: code to scrap google for images
+  - Outlier detection and removal
+  
+  - Feature engineering
+  
+  - Dimensionality reduction
+  
+  - Gridsearchcv for hyperparameter tunning
+  
+  - K fold cross validation
 
-* images_dataset: Dataset used for our model training
+### Technology and tools used in this project
 
-## Technologies used in this project,
-1. Python
+   - Python
+   
+   - CV2 for image Visualization and resize the image 
+   
+   -Numpy for convert 3D(rgb channel) to 1D
+   
+   - Sklearn for model building
+   
+   - Jupyter Notebook
+   
+   - Python flask for http server
+   
+   - HTML/CSS/Javascript for UI
+## Step
+ 1.We will first build a model using sklearn and SVC algorithm
+ 
+ 2.Second step would be to write a python flask server that uses the saved model to serve http requests.
+ 
+ 3.Third component is the website built in html, css and javascript that allows user to select file of celebrity 
+    
+    Step#1: Import the required libraries
+    Step#2: Load the data
+    Step#3: convert 3D(rgb)array to 1D array
+    Step#4: Build Machine Learning Model
+    Step#5: Testing The model
+    Step#6: Export the model
+    Step#7: Export any other important info
+## Frontend
+- HTML
 
-2. Numpy and OpenCV for data cleaning
+- CSS
 
-3. Matplotlib & Seaborn for data visualization
+- Javascript
 
-4. Sklearn for model building
+## Backend
+- Flask
 
-5. Jupyter notebook, visual studio code 
 
-6. Python flask for http server
-
-7. HTML/CSS/Javascript for UI
