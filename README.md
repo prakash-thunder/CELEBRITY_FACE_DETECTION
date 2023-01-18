@@ -4,7 +4,7 @@ In this data science and machine learning project, we classify sports personalit
 2 Pradeep Narwal
 3 Virat Kohli
 4 Lionel Messi
-
+![App Screenshot](https://github.com/prakash-thunder/Price_prediction_project/blob/main/model_photo.png?raw=true)
 ## Here is the folder structure,
 * UI : This contains ui website code 
 * server: Python flask server
