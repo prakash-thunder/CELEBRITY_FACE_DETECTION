@@ -16,12 +16,6 @@ In this data science and machine learning project, we classify sports personalit
 ### Below data science concepts are used in this project
 
   - Data loading and cleaning
-
-  - Outlier detection and removal
-  
-  - Feature engineering
-  
-  - Dimensionality reduction
   
   - Gridsearchcv for hyperparameter tunning
   
